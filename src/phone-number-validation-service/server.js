@@ -56,4 +56,4 @@ app.post('/verify', async (req, res) => {
   JVerificationAPI.verify(token, phone, exID).pipe(res);
 });
 
-app.listen(port, () => console.log(`backend service is listening on http://localhost:${port}`));
+app.listen(port, () => console.log(`backend service is listening on http://localhost:${port}`));s
